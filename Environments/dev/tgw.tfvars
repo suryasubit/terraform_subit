@@ -1,0 +1,10 @@
+aws_region                       = ""
+vpc_ids                          = [""] #example [ "vpc-1234", "vpc-0987" ]
+transit_gateway_description      = "Your Transit Gateway Description"
+amazon_side_asn                  = 64512
+auto_accept_shared_attachments   = "disable"
+default_route_table_association  = "enable"
+default_route_table_propagation  = "enable"
+dns_support                      = "enable"
+vpn_ecmp_support                 = "enable"
+transit_gateway_name             = "transit_gateway"
