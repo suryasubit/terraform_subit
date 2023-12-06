@@ -1,5 +1,5 @@
-aws_region                       = ""
-vpc_ids                          = [""] #example [ "vpc-1234", "vpc-0987" ]
+aws_region                       = "us-west-1"
+vpc_ids                          = ["vpc-033305b50c064a7c4", "vpc-031bb8f02e0b58ad5"] #example [ "vpc-1234", "vpc-0987" ]
 transit_gateway_description      = "Your Transit Gateway Description"
 amazon_side_asn                  = 64512
 auto_accept_shared_attachments   = "disable"
